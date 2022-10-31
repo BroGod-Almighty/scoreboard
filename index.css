@@ -1,0 +1,69 @@
+/* COLOR PALATTE: 
+    -- Space Cadet: #1B244A; (background-color)
+    -- Cultured: #EEEEEE; (title-color)
+    -- Fiery Rose: #F94F6D; (text-color)
+    -- Wild Blue Yonder: #9AABD8; (btn-border)
+    -- Black: #080001; (score-background)
+*/
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+}   
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title */
+h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin: 0 0 21px 0;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    margin: 0;
+    background-color: #080001;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    width: 155px;
+    margin: 26px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    box-sizing: border-box; 
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    font-size: 18px;
+}
